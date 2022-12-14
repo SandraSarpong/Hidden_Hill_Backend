@@ -14,7 +14,6 @@ import {
 const router = express.Router();
 
 //CREATE
-<<<<<<< HEAD
 // router.post("/", verifyAdmin, createHotel);
 router.post("/createHotel", createHotel);
 
@@ -23,13 +22,6 @@ router.post("/createHotel", createHotel);
 router.put("/:id", updateHotel);
 //DELETE
 //router.delete("/:id", verifyAdmin, deleteHotel);
-=======
-router.post("/", createHotel);
-
-//UPDATE
-router.put("/:id", updateHotel);
-//DELETE
->>>>>>> aafa01253bd280337da293c9d23d01c56cf6f7d8
 router.delete("/:id", deleteHotel);
 //GET
 
